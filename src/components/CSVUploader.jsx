@@ -40,7 +40,7 @@ const CSVUploader = () => {
   return (
     <div className="p-4">
       <Input type="file" accept=".csv" onChange={handleFileUpload} />
-      {data.length > 0 &amp;&amp; (
+      {data.length > 0 && (
         <>
           <Table className="mt-4">
             <TableHeader>
